@@ -1,0 +1,100 @@
+body{
+    background-image: url(https://images2.alphacoders.com/913/913622.jpg);
+    background-attachment: fixed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: gray;
+}
+h1{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-align: center;
+    font-size:500%;
+}
+.principal{
+    background-color:lightgray;
+    border:2px solid black;
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.chokolat{
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+.intro{
+    font-size: 300%;
+    text-align:center;
+}
+button{
+    border: 1px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color:rgb(130, 152, 173);
+}
+.questionairetbl{
+    background-color:lightgray;
+    border:2px solid black;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.questionairetitre{
+    color: rgb(180, 148, 43);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+.titresrole{
+    text-align: center;
+    font-size:500%;
+}
+.imagesrole{
+    width: 1300px ;
+    height: auto;
+}
+.vocabulaire {
+    background-color: rgb(189, 193, 206);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.LoL {
+    font-size: 200%;
+    text-decoration: none;
+
+}
+.lienQ {
+    text-decoration: none;
+}

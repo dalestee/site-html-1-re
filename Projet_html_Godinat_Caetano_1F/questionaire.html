@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bauté.css">
+        <link rel="icon" href="summoner.ico">
+        <script src="script.js"></script>
+        <meta charset="utf-8">
+        <title>Questionaire</title>
+    </head>
+    <body link="#000">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="questionaire.html">Questionaire</a></li>
+            <li><a href="assassin.html">assassin</a></li>
+            <li><a href="adc.html">Adc</a></li>
+            <li><a href="mage.html">Mage</a></li>
+            <li><a href="bruiser.html">Bruiser</a></li>
+            <li><a href="tank.html">Tank</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        <br>
+        <form method="GET" action="">
+            <table class="questionairetbl">
+                <tr>
+                    <td>
+                        <h2 class="questionairetitre">Répondez au 10 questions</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Question 1</h3>
+                        <h4>Quelle est l'adjectif qui te définie le mieux?</h4>
+                        <p>
+                            <input type="checkbox" name="role" id="Q1/0" value="Q1/0"><!--chaque réponse à un id pour après compter les points avec le JS-->
+                            <label for="Q1/0">Furtif</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q1/1" value="Q1/1">
+                            <label for="Q1/1">courageux</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q1/2" value="Q1/2">
+                            <label for="Q1/2">Prècis</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q1/3" value="Q1/3">
+                            <label for="Q1/3">Fort</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q1/4" value="Q1/4">
+                            <label for="Q1/4">Résistant</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q1/5" value="Q1/5">
+                            <label for="Q1/5">Altruiste</label>
+                        </p>
+                    </td>
+                    <td colspan="2" class="vocabulaire">
+                        <h2 align='center'>Vocabulaire</h2>
+                        <p><h4>DPS:</h4>veut dire dégat par seconde</p>
+                        <p><h4>Burst:</h4>c'est quand tu infliges une quantité de dégats élevée en très peu de temps</p>
+                        <p><h4>Peel:</h4>veut dire aider, heal, etc</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Question 2</h3>
+                        <h4>Tu est dans un combat d'équipes, quelle va être ton rôle?</h4>
+                        <p>
+                            <input type="checkbox" name="role" id="Q2/0" value="Q2/0">
+                            <label for="Q2/0">aller au flanc pour assasiner une cible ennemie importante </label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q2/1" value="Q2/1">
+                            <label for="Q2/1">Avoir un gros <b class="motVoca">DPS</b> pour détruire les tanks</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q2/2" value="Q2/2">
+                            <label for="Q2/2">contrôler la bataille à distance et <b class="motVoca">burst</b> des ennemis</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q2/3" value="Q2/3">
+                            <label for="Q2/3">DUEL!!!!!!!!!</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q2/4" value="Q2/4">
+                            <label for="Q2/4">Prendre les coups pour ton équipe et tenir le plus long temps possible</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q2/5" value="Q2/5">
+                            <label for="Q2/5">Ne pas laisser les alliés mourrir ou immobiliser les ennemis</label>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Question 3</h3>
+                        <h4>Qu'est ce qui vous effraie le plus</h4>
+                        <p>
+                            <input type="checkbox" name="role" id="Q3/0" value="Q3/0">
+                            <label for="Q3/0">Se faire arrêter</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q3/1" value="Q3/1">
+                            <label for="Q3/1">être en position vulnérable</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q3/2" value="Q3/2">
+                            <label for="Q3/2">être à court d'énergie</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q3/3" value="Q3/3">
+                            <label for="Q3/3">Une attaque surprise</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q3/4" value="Q3/4">
+                            <label for="Q3/4">j'ai peur de rien</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q3/5" value="Q3/5">
+                            <label for="Q3/5">Voir un proche mourrir</label>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Question 4</h3>
+                        <h4>On vous attaque que faites vous?</h4>
+                        <p>
+                            <input type="checkbox" name="role" id="Q4/0" value="Q4/0">
+                            <label for="Q4/0">je me cache</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q4/1" value="Q4/1">
+                            <label for="Q4/1">Je cours très vite</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q4/2" value="Q4/2">
+                            <label for="Q4/2">J'essaie de l'arrêter</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q4/3" value="Q4/3">
+                            <label for="Q4/3">Je me bat contre</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q4/4" value="Q4/4">
+                            <label for="Q4/4">Je contre attaque</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q4/5" value="Q4/5">
+                            <label for="Q4/5">Je <b class="motVoca">peel</b> mes alliés</label>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Question 5</h3>
+                        <h4>Avec quoi vous iriez-vous au combat?</h4>
+                        <p>
+                            <input type="checkbox" name="role" id="Q5/0" value="Q5/0">
+                            <label for="Q5/0">Avec des dagues</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q5/1" value="Q5/1">
+                            <label for="Q5/1">Avec un arc</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q5/2" value="Q5/2">
+                            <label for="Q5/2">Avec mes connaissances</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q5/3" value="Q5/5">
+                            <label for="Q5/3">Avec une épée</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q5/4" value="Q5/4">
+                            <label for="Q5/4">Avec un Bouclié</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q5/5" value="Q5/5">
+                            <label for="Q5/5">Avec un Kit médical</label>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Question 6</h3>
+                        <h4>Votre allié a besoin d'aide que faites vous?</h4>
+                        <p>
+                            <input type="checkbox" name="role" id="Q6/0" value="Q6/0">
+                            <label for="Q6/0">Je l'utilise comme distraction pour tuer ma cible</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q6/1" value="Q6/1">
+                            <label for="Q6/1">Je m'enfuis car c'est lui qui s'est mis dans cette position</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q6/2" value="Q6/2">
+                            <label for="Q6/2">Je fais peur à l'énnemi</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q6/3" value="Q6/3">
+                            <label for="Q6/3">J'attaque qui attaque mes alliés</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q6/4" value="Q6/4">
+                            <label for="Q6/4">Je prend des coups pour lui</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q6/5" value="Q6/5">
+                            <label for="Q6/5">J'aide le plus vite possible</label>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Question 7</h3>
+                        <h4>Quel est ton animal de companie?</h4>
+                        <p>
+                            <input type="checkbox" name="role" id="Q7/0" value="Q7/0">
+                            <label for="Q7/0">serpent</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q7/1" value="Q7/1">
+                            <label for="Q7/1">chat</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q7/2" value="Q7/2">
+                            <label for="Q7/2">perroquet</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q7/3" value="Q7/3">
+                            <label for="Q7/3">sandwich?</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q7/4" value="Q7/4">
+                            <label for="Q7/4">Tortue</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q7/5" value="Q7/5">
+                            <label for="Q7/5">chien</label>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Question 8</h3>
+                        <h4>Dans une guerre qu'est-ce qui est le plus important</h4>
+                        <p>
+                            <input type="checkbox" name="role" id="Q8/0" value="Q8/0">
+                            <label for="Q8/0">Tuer le leader de l'armée ennemie a tout prix</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q8/1" value="Q8/1">
+                            <label for="Q8/1">Faire le plus de dégats possible a l'ennemi</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q8/2" value="Q8/2">
+                            <label for="Q8/2">La stratégie</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q8/3" value="Q8/3">
+                            <label for="Q8/3">Se battre jusqu'à ses limites</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q8/4" value="Q8/4">
+                            <label for="Q8/4">Résister le plus possible</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q8/5" value="Q8/5">
+                            <label for="Q8/5">Avoir le moins de pertes possible</label>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Question 9</h3>
+                        <h4>Qu'est-ce que tu aimes dans un jeu?
+                        </h4>
+                        <p>
+                            <input type="checkbox" name="role" id="Q9/0" value="Q9/0">
+                            <label for="Q9/0">Détruire tout</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q9/1" value="Q9/1">
+                            <label for="Q9/1">Recueillir des ressources</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q9/2" value="Q9/2">
+                            <label for="Q9/2">Construire</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q9/3" value="Q9/3">
+                            <label for="Q9/3">Etre le plus fort</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q9/4" value="Q9/4">
+                            <label for="Q9/4">Etre invincible</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q9/5" value="Q9/5">
+                            <label for="Q9/5">Aider des alliés</label>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Question 10</h3>
+                        <h4>Quel est le plus important?</h4>
+                        <p>
+                            <input type="checkbox" name="role" id="Q10/0" value="Q10/0">
+                            <label for="Q10/0">La précision</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q10/1" value="Q10/1">
+                            <label for="Q10/1">Ne jamais abandoner</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q10/2" value="Q10/2">
+                            <label for="Q10/2">L'intelligence</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q10/3" value="Q10/3">
+                            <label for="Q10/3">Confiance en soi</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q10/4" value="Q10/4">
+                            <label for="Q10/4">Le courage</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="role" id="Q10/5" value="Q10/5">
+                            <label for="Q10/5">L'amitié</label>
+                        </p>
+                        <p>
+                            <input type="submit" value="Valider" onclick="validerQuestionaire();">
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
